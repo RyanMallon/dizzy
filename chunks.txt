@@ -1,0 +1,309 @@
+#
+# Entries in DIZZY.RES/DIZZY.NDX. Filenames are encoded in the DIZZY.EXE binary.
+#
+# Blank entries are additional chunks used by the previous chunk.
+# For example, for stages the first chunk is a header, then 1 or more layers,
+# a palette and tileset chunk.
+#
+
+[   0] 7d00 bubble.col
+[   1] 7d01 ?
+[   2] 7d02 german.dat  (strings)
+[   3] 7d03 french.dat  (strings)
+[   4] 7d04 italian.dat (strings)
+[   5] 7d05 spanish.dat (strings)
+[   6] 7d06 english.dat (strings)
+[   7] 7d07 speaker.drv
+[   8] 7d08 sblaster.drv
+[   9] 7d09 adlib.drv
+[   a] 03e8 Sprites - mines
+[   b] 03e9
+[   c] 03ea
+[   d] 07d0 Sprites - main
+[   e] 07d1
+[   f] 07d2
+[  10] 0bb8 Sprites - water
+[  11] 0bb9
+[  12] 0bba
+[  13] 0fa0 Sprites - title
+[  14] 0fa1
+[  15] 0fa2
+[  16] 1388 Sprites - puzzle
+[  17] 1389
+[  18] 138a
+[  19] 7d0a drums (instruments)
+[  1a] 7d0b voyetra (synth)
+[  1b] 7d0c minecart.map
+[  1c] 7d0d music (archery)
+[  1d] 7d0e music (bubble)
+[  1e] 7d0f music (castle)
+[  1f] 7d10 music (complete)
+[  20] 7d11 music (dizzytit)
+[  21] 7d12 music (gameover)
+[  22] 7d13 music (gravey)
+[  23] 7d14 music (loselife)
+[  24] 7d15 music (minecart)
+[  25] 7d16 music (pirate)
+[  26] 7d17 music (rapids)
+[  27] 7d18 music ?
+[  28] 7d19 music (treehous)
+[  29] 7d1a music (undersea)
+[  2a] 7d1b music (world)
+[  2b] 7d1c music (zak)
+[  2c] 7d1d panel4.raw
+[  2d] 7d1e beach1.stg
+[  2e] 7d1f
+[  2f] 7d20
+[  30] 7d21
+[  31] 7d22
+[  32] 7d23
+[  33] 7d24 blankscr.stg
+[  34] 7d25
+[  35] 7d26
+[  36] 7d27
+[  37] 7d28 bubble.stg
+[  38] 7d29
+[  39] 7d2a
+[  3a] 7d2b
+[  3b] 7d2c
+[  3c] 7d2d
+[  3d] 7d2e castle1.stg
+[  3e] 7d2f
+[  3f] 7d30
+[  40] 7d31
+[  41] 7d32
+[  42] 7d33
+[  43] 7d34
+[  44] 7d35
+[  45] 7d36
+[  46] 7d37 castle2.stg
+[  47] 7d38
+[  48] 7d39
+[  49] 7d3a
+[  4a] 7d3b cloud1.stg
+[  4b] 7d3c
+[  4c] 7d3d
+[  4d] 7d3e
+[  4e] 7d3f
+[  4f] 7d40
+[  50] 7d41 grave1.stg
+[  51] 7d42
+[  52] 7d43
+[  53] 7d44
+[  54] 7d45
+[  55] 7d46 grass1.stg
+[  56] 7d47
+[  57] 7d48
+[  58] 7d49
+[  59] 7d4a
+[  5a] 7d4b
+[  5b] 7d4c grass2.stg
+[  5c] 7d4d
+[  5d] 7d4e
+[  5e] 7d4f
+[  5f] 7d50
+[  60] 7d51 grass3.stg
+[  61] 7d52
+[  62] 7d53
+[  63] 7d54
+[  64] 7d55
+[  65] 7d56
+[  66] 7d57 hut8.stg
+[  67] 7d58
+[  68] 7d59
+[  69] 7d5a
+[  6a] 7d5b
+[  6b] 7d5c
+[  6c] 7d5d
+[  6d] 7d5e
+[  6e] 7d5f
+[  6f] 7d60
+[  70] 7d61
+[  71] 7d62
+[  72] 7d63 mine1.stg
+[  73] 7d64
+[  74] 7d65
+[  75] 7d66
+[  76] 7d67
+[  77] 7d68
+[  78] 7d69 minecart.stg
+[  79] 7d6a
+[  7a] 7d6b
+[  7b] 7d6c
+[  7c] 7d6d mine2.stg
+[  7d] 7d6e
+[  7e] 7d6f
+[  7f] 7d70
+[  80] 7d71
+[  81] 7d72
+[  82] 7d73
+[  83] 7d74 sea1.stg
+[  84] 7d75
+[  85] 7d76
+[  86] 7d77
+[  87] 7d78
+[  88] 7d79 sea2.stg
+[  89] 7d7a
+[  8a] 7d7b
+[  8b] 7d7c
+[  8c] 7d7d
+[  8d] 7d7e seacave1.stg
+[  8e] 7d7f
+[  8f] 7d80
+[  90] 7d81
+[  91] 7d82
+[  92] 7d83 ship1.stg
+[  93] 7d84
+[  94] 7d85
+[  95] 7d86
+[  96] 7d87
+[  97] 7d88
+[  98] 7d89
+[  99] 7d8a
+[  9a] 7d8b
+[  9b] 7d8c
+[  9c] 7d8d
+[  9d] 7d8e
+[  9e] 7d8f tree1.stg
+[  9f] 7d90
+[  a0] 7d91
+[  a1] 7d92
+[  a2] 7d93
+[  a3] 7d94
+[  a4] 7d95
+[  a5] 7d96
+[  a6] 7d97
+[  a7] 7d98
+[  a8] 7d99
+[  a9] 7d9a
+[  aa] 7d9b tudor1.stg
+[  ab] 7d9c
+[  ac] 7d9d
+[  ad] 7d9e
+[  ae] 7d9f
+[  af] 7da0
+[  b0] 7da1 tudor2.stg
+[  b1] 7da2
+[  b2] 7da3
+[  b3] 7da4
+[  b4] 7da5
+[  b5] 7da6
+[  b6] 7da7 tudor3.stg
+[  b7] 7da8
+[  b8] 7da9
+[  b9] 7daa
+[  ba] 7dab
+[  bb] 7dac
+[  bc] 7dad tunnel1.stg
+[  bd] 7dae
+[  be] 7daf
+[  bf] 7db0
+[  c0] 7db1
+[  c1] 7db2 tunnel2.stg
+[  c2] 7db3
+[  c3] 7db4
+[  c4] 7db5
+[  c5] 7db6
+[  c6] 7db7 zak.stg
+[  c7] 7db8
+[  c8] 7db9
+[  c9] 7dba
+[  ca] 7dbb
+[  cb] 7dbc invtr.stg
+[  cc] 7dbd
+[  cd] 7dbe
+[  ce] 7dbf
+[  cf] 7dc0 puzzle.stg
+[  d0] 7dc1
+[  d1] 7dc2
+[  d2] 7dc3
+[  d3] 7dc4
+[  d4] 7dc5 selector.stg
+[  d5] 7dc6
+[  d6] 7dc7
+[  d7] 7dc8
+[  d8] 7dc9
+[  d9] 7dca frontend.stg
+[  da] 7dcb
+[  db] 7dcc
+[  dc] 7dcd
+[  dd] 7dce
+[  de] 7dcf cave.stg
+[  df] 7dd0
+[  e0] 7dd1
+[  e1] 7dd2
+[  e2] 7dd3
+[  e3] 7dd4 gameover.stg
+[  e4] 7dd5
+[  e5] 7dd6
+[  e6] 7dd7
+[  e7] 7dd8 tunnel1a.stg
+[  e8] 7dd9
+[  e9] 7dda
+[  ea] 7ddb
+[  eb] 7ddc
+[  ec] 7ddd endseq.stg
+[  ed] 7dde
+[  ee] 7ddf
+[  ef] 7de0
+[  f0] 7de1
+[  f1] 7de2 pdaisy.stg
+[  f2] 7de3
+[  f3] 7de4
+[  f4] 7de5
+[  f5] 7de6
+[  f6] 7de7 pdenzil.stg
+[  f7] 7de8
+[  f8] 7de9
+[  f9] 7dea
+[  fa] 7deb
+[  fb] 7dec pdizzy.stg
+[  fc] 7ded
+[  fd] 7dee
+[  fe] 7def
+[  ff] 7df0
+[ 100] 7df1 pdora.stg
+[ 101] 7df2
+[ 102] 7df3
+[ 103] 7df4
+[ 104] 7df5
+[ 105] 7df6 pdozy.stg
+[ 106] 7df7
+[ 107] 7df8
+[ 108] 7df9
+[ 109] 7dfa
+[ 10a] 7dfb pdylan.stg
+[ 10b] 7dfc
+[ 10c] 7dfd
+[ 10d] 7dfe
+[ 10e] 7dff
+[ 10f] 7e00 pgrand.stg
+[ 110] 7e01
+[ 111] 7e02
+[ 112] 7e03
+[ 113] 7e04
+[ 114] 7e05 looselif.stg
+[ 115] 7e06
+[ 116] 7e07
+[ 117] 7e08
+[ 118] 7e09
+[ 119] 7e0a wav (fx10)
+[ 11a] 7e0b wav (fx13)
+[ 11b] 7e0c wav (fx14)
+[ 11c] 7e0d wav (fx15)
+[ 11d] 7e0e wav (fx16)
+[ 11e] 7e0f wav (fx17)
+[ 11f] 7e10 wav (fx18)
+[ 120] 7e11 wav (fx19)
+[ 121] 7e12 wav (fx2)
+[ 122] 7e13 wav (fx20)
+[ 123] 7e14 wav (fx22)
+[ 124] 7e15 wav (fx3)
+[ 125] 7e16 wav (fx4)
+[ 126] 7e17 wav (fx5)
+[ 127] 7e18 wav (fx7)
+[ 128] 7e19 wav (fx8)
+[ 129] 7e1a wav ?
+[ 12a] 7e1b wav (fxbfly)
+[ 12b] 7e1c dizzy ?
+[ 12c] 7e1d protect.bin (copy protect)
