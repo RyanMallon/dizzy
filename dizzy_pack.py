@@ -57,6 +57,7 @@
 #
 
 import struct
+import sys
 
 class NDX(object):
     def __init__(self, data):
@@ -197,8 +198,6 @@ class DizzyPack(object):
             data = self.res_data[offset:offset + ndx.compressed_size]
 
         return data
-
-import sys
 
 if __name__ == "__main__":
     ndx_file = sys.argv[1]
