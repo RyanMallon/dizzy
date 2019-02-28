@@ -39,6 +39,9 @@ if __name__ == "__main__":
 
     pack = DizzyPack(ndx_filename, res_filename)
 
+    if not os.path.exists("out"):
+        os.mkdir("out")
+
     index = 0
     ndx_offset = 0
     for index in xrange(pack.num_resources()):
