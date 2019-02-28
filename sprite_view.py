@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
     pack = DizzyPack(sys.argv[1], sys.argv[2])
 
-    index        = int(sys.argv[3])
+    index = int(sys.argv[3])
     if index >= len(SPRITE_SETS):
         print("Pick a sprite set between 0 and {}".format(len(SPRITE_SETS) - 1))
         sys.exit(1)
