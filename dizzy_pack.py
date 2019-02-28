@@ -199,7 +199,6 @@ class DizzyPack(object):
         return data
 
 import sys
-import scapy.all as scapy
 
 if __name__ == "__main__":
     ndx_file = sys.argv[1]

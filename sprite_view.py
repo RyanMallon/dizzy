@@ -21,8 +21,6 @@ import os
 
 from dizzy_pack import DizzyPack
 
-import scapy.all as scapy
-
 PIXEL_SIZE = 2
 TILE_GAP   = 2
 
