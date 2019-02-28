@@ -16,7 +16,7 @@ import sys
 import os
 
 from dizzy_pack import DizzyPack
-from dizzy_sprite import DizzySpriteSet, DizzySpriteInfo
+from sprite_view import DizzySpriteSet, DizzySpriteInfo
 
 sprite_chunks = [
     # (sprite_data, sprite_table)
