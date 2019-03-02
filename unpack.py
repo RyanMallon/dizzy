@@ -30,7 +30,7 @@ sprite_chunks = [
 def write_chunk(index, id, data):
     filename = "file_{:04x}_{:04x}.bin".format(id, index)
     filename = os.path.join("out", filename)
-    open(filename, "w").write(data)
+    open(filename, "wb").write(data)
     print(filename)
 
 if __name__ == "__main__":

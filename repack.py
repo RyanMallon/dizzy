@@ -44,7 +44,7 @@ def build_chunk_list(dirname):
     files.sort()
 
     for f in files:
-        data = open(os.path.join(dirname, f), "r").read()
+        data = open(os.path.join(dirname, f), "rb").read()
         index, id = parse_filename(f)
 
         chunks.append((index, id, data))
@@ -66,8 +66,8 @@ def write_ndx_res(chunks):
 
         offset += compressed_size
 
-    open("DIZZY.NDX", "w").write(ndx_data)
-    open("DIZZY.RES", "w").write(res_data)
+    open("DIZZY.NDX", "wb").write(ndx_data)
+    open("DIZZY.RES", "wb").write(res_data)
 
 if __name__ == "__main__":
     dirname = sys.argv[1]

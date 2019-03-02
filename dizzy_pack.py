@@ -165,8 +165,8 @@ class DizzyPack(object):
     NDX_FLAG_COMPRESSED = 0x80
 
     def __init__(self, ndx_filename, res_filename):
-        self.ndx_data = open(ndx_filename, "r").read()
-        self.res_data = open(res_filename, "r").read()
+        self.ndx_data = open(ndx_filename, "rb").read()
+        self.res_data = open(res_filename, "rb").read()
 
     def get_ndx_by_id(self, id):
         for i in xrange(0, len(self.ndx_data), 16):
